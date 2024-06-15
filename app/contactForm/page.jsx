@@ -1,5 +1,4 @@
 'use client'
-
 import React, { useState } from 'react';
 
 const ContactForm = () => {
@@ -40,40 +39,44 @@ const ContactForm = () => {
   };
 
   return (
-    <form onSubmit={handleSubmit} className="bg-white p-6 rounded-lg shadow-md">
+    <form onSubmit={handleSubmit} className="p-6 rounded-lg shadow-md bg-gray-100 text-gray-800">
       <div className="mb-4">
-        <label className="block text-gray-700">Name</label>
+        <label className="block">Name</label>
         <input
           type="text"
           name="name"
           value={formData.name}
           onChange={handleChange}
           required
-          className="w-full px-3 py-2 border rounded-lg"
+          className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:border-purple-500"
+          placeholder="Your Name"
         />
       </div>
       <div className="mb-4">
-        <label className="block text-gray-700">Email</label>
+        <label className="block">Email</label>
         <input
           type="email"
           name="email"
           value={formData.email}
           onChange={handleChange}
           required
-          className="w-full px-3 py-2 border rounded-lg"
+          className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:border-purple-500"
+          placeholder="Your Email"
         />
       </div>
       <div className="mb-4">
-        <label className="block text-gray-700">Message</label>
+        <label className="block">Message</label>
         <textarea
           name="message"
           value={formData.message}
           onChange={handleChange}
           required
-          className="w-full px-3 py-2 border rounded-lg"
+          className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:border-purple-500"
+          rows="4"
+          placeholder="Your Message"
         ></textarea>
       </div>
-      <button type="submit" className="bg-blue-500 text-white px-4 py-2 rounded-lg" disabled={loading}>
+      <button type="submit" className="bg-purple-500 text-white px-4 py-2 rounded-lg hover:bg-purple-600 transition-colors duration-300" disabled={loading}>
         {loading ? 'Sending...' : 'Send'}
       </button>
     </form>
