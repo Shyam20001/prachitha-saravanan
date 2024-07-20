@@ -63,14 +63,14 @@ export default function Home() {
           </section>
           <section id="internship" className="my-8 p-6 bg-gray-800 bg-opacity-50 backdrop-blur-md rounded-lg shadow-lg transform transition-transform duration-500 hover:scale-105 text-white">
             <h2 className="text-3xl font-bold mb-4">Internships and Training</h2>
-            <p className="leading-relaxed text-lg">
-              <strong>FREEDOM INSTITUTE OF MEDICAL SCIENCES:</strong> Coimbatore (7 Days).
-            </p>
-             <p className="leading-relaxed text-lg mt-4">
-              <strong>Hospital Training:</strong>  LOTUS HOSPITAL, Erode (10 Days).
-            </p>
             <p className="leading-relaxed text-lg mt-4">
-              <strong>CYRIX HEALTHCARE:</strong> Cochin (1 Day).
+              <strong>Hospital Training:</strong>  LOTUS HOSPITAL, ERODE (10 Days).
+            </p>
+            <p className="leading-relaxed text-lg">
+              <strong>FREEDOM INSTITUTE OF MEDICAL SCIENCES, COIMBATORE (7 Days). </strong> 
+            </p>         
+            <p className="leading-relaxed text-lg mt-4">
+              <strong>Internship:</strong> CYRIX HEALTHCARE PVT. LTD. COCHIN (1 Day).
             </p>
           </section>
           <section id="technical-skills" className="my-8 p-6 bg-gray-800 bg-opacity-50 backdrop-blur-md rounded-lg shadow-lg transform transition-transform duration-500 hover:scale-105 text-white">
@@ -95,7 +95,7 @@ export default function Home() {
           <section id="experience" className="my-8 p-6 bg-gray-800 bg-opacity-50 backdrop-blur-md rounded-lg shadow-lg transform transition-transform duration-500 hover:scale-105 text-white">
             <h2 className="text-3xl font-bold mb-4">Experience</h2>
             <p className="leading-relaxed text-lg">
-              Currently working as REGULATORY AFFAIRS EXECUTIVE at Nice Neotech Medical Systems Private Limited, Chennai.
+              Currently working as REGULATORY AFFAIRS EXECUTIVE at nice Neotech Medical Systems Private Limited, Chennai.
             </p>
           </section>
           <section id="co-curricular" className="my-8 p-6 bg-gray-800 bg-opacity-50 backdrop-blur-md rounded-lg shadow-lg transform transition-transform duration-500 hover:scale-105 text-white">
