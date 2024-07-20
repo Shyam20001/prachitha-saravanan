@@ -64,13 +64,13 @@ export default function Home() {
           <section id="internship" className="my-8 p-6 bg-gray-800 bg-opacity-50 backdrop-blur-md rounded-lg shadow-lg transform transition-transform duration-500 hover:scale-105 text-white">
             <h2 className="text-3xl font-bold mb-4">Internships and Training</h2>
             <p className="leading-relaxed text-lg">
-              <strong>FREEDOM INSTITUTE OF MEDICAL SCIENCES:</strong> Decontamination and Sterilization of Medical Devices at FREEDOM INSTITUTE OF MEDICAL SCIENCES, Coimbatore (7 Days).
+              <strong>FREEDOM INSTITUTE OF MEDICAL SCIENCES:</strong> Coimbatore (7 Days).
             </p>
              <p className="leading-relaxed text-lg mt-4">
-              <strong>Hospital Training:</strong> Medical Equipment Electrical Safety Testing at LOTUS HOSPITAL, Erode (10 Days).
+              <strong>Hospital Training:</strong>  LOTUS HOSPITAL, Erode (10 Days).
             </p>
             <p className="leading-relaxed text-lg mt-4">
-              <strong>CYRIX HEALTHCARE:</strong> Medical Equipment Electrical Safety Testing at CYRIX HEALTHCARE PVT LTD, Cochin (1 Day).
+              <strong>CYRIX HEALTHCARE:</strong> Cochin (1 Day).
             </p>
           </section>
           <section id="technical-skills" className="my-8 p-6 bg-gray-800 bg-opacity-50 backdrop-blur-md rounded-lg shadow-lg transform transition-transform duration-500 hover:scale-105 text-white">
