@@ -64,11 +64,11 @@ export default function Home() {
           <section id="internship" className="my-8 p-6 bg-gray-800 bg-opacity-50 backdrop-blur-md rounded-lg shadow-lg transform transition-transform duration-500 hover:scale-105 text-white">
             <h2 className="text-3xl font-bold mb-4">Internships and Training</h2>
             <p className="leading-relaxed text-lg mt-4">
-              <strong>Hospital Training:</strong>  LOTUS HOSPITAL, ERODE (10 Days).
+              <strong>Hospital Training:</strong>  LOTUS HOSPITAL, ERODE (10 Days) | FREEDOM INSTITUTE OF MEDICAL SCIENCES, COIMBATORE (7 Days).
             </p>
-            <p className="leading-relaxed text-lg">
+            {/* <p className="leading-relaxed text-lg">
               <strong>FREEDOM INSTITUTE OF MEDICAL SCIENCES, COIMBATORE (7 Days). </strong> 
-            </p>         
+            </p>          */}
             <p className="leading-relaxed text-lg mt-4">
               <strong>Internship:</strong> CYRIX HEALTHCARE PVT. LTD. COCHIN (1 Day).
             </p>
