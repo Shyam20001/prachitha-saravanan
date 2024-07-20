@@ -63,15 +63,15 @@ export default function Home() {
           </section>
           <section id="internship" className="my-8 p-6 bg-gray-800 bg-opacity-50 backdrop-blur-md rounded-lg shadow-lg transform transition-transform duration-500 hover:scale-105 text-white">
             <h2 className="text-3xl font-bold mb-4">Internships and Training</h2>
-            <p className="leading-relaxed text-lg">
+            {/* <p className="leading-relaxed text-lg">
               <strong>Hospital Training:</strong> Decontamination and Sterilization of Medical Devices at FREEDOM INSTITUTE OF MEDICAL SCIENCES, Coimbatore (7 Days).
-            </p>
-            <p className="leading-relaxed text-lg mt-4">
+            </p> */}
+             <p className="leading-relaxed text-lg mt-4">
               <strong>Hospital Training:</strong> Medical Equipment Electrical Safety Testing at LOTUS HOSPITAL, Erode (10 Days).
             </p>
-            <p className="leading-relaxed text-lg mt-4">
+            {/*<p className="leading-relaxed text-lg mt-4">
               <strong>Hospital Training:</strong> Medical Equipment Electrical Safety Testing at CYRIX HEALTHCARE PVT LTD, Cochin (1 Day).
-            </p>
+            </p> */}
           </section>
           <section id="technical-skills" className="my-8 p-6 bg-gray-800 bg-opacity-50 backdrop-blur-md rounded-lg shadow-lg transform transition-transform duration-500 hover:scale-105 text-white">
             <h2 className="text-3xl font-bold mb-4">Technical Skills</h2>
@@ -85,7 +85,7 @@ export default function Home() {
             </ul>
           </section>
           <section id="certifications" className="my-8 p-6 bg-gray-800 bg-opacity-50 backdrop-blur-md rounded-lg shadow-lg transform transition-transform duration-500 hover:scale-105 text-white">
-            <h2 className="text-3xl font-bold mb-4">Certifications & Training</h2>
+            <h2 className="text-3xl font-bold mb-4">Certifications</h2>
             <ul className="list-disc list-inside">
               <li>Principles of Management - NPTEL | IIT KHARAGPUR (54%, July-Oct 2022)</li>
               <li>Certification of achievement in Decontamination and Sterilization of Medical Device (77.6%, June 12, 2024)</li>
