@@ -131,7 +131,7 @@ export default function Home() {
             <h2 className="text-3xl font-bold mb-4 flex-grow">Connect with me on LinkedIn ▶️▶️</h2>
             <a href="https://www.linkedin.com/in/prachitha-saravanan-488590269" target="_blank" rel="noopener noreferrer">
               <Image
-                src="https://media.licdn.com/dms/image/D5603AQF6naDloLCFEA/profile-displayphoto-shrink_800_800/0/1720767612892?e=1726704000&v=beta&t=f_Aix8swptreKv8Xpfx7vikxLfKL6Cb7tDJBnYV5MSk"
+                src="https://media.licdn.com/dms/image/D5603AQGGx64zFicLFw/profile-displayphoto-shrink_800_800/0/1722015983610?e=1727308800&v=beta&t=H074-EsaW96R8g3cyatUgKfBX4ucrnkI9RvIA3-2Lok"
                 alt="LinkedIn Logo"
                 width={200}
                 height={100}
